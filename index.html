@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aneto | Italia</title>
+  </head>
+  <body>
+    <!--HEADER/NAVBAR-->
+
+    <header class="header">
+      <div class="container-fluid">
+        <div class="nav-span">
+          <span>
+            <a href="#" onclick="openSideMenu()" title="sidemenu">
+              <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+              </svg>
+            </a>
+          </span>
+        </div>
+        <nav class="navbar">
+          <!--SPAN-NAV-->
+
+          <ul class="navbar-nav">
+            <li><a href="#hem">Hem</a></li>
+            <li>
+              <a href="#om">Om oss</a>
+            </li>
+            <li>
+              <a href="#meny">Meny</a>
+            </li>
+            <li><a href="#catering">Catering</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div id="side-menu" class="side-nav">
+          <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+          <a href="#hem">Hem</a>
+          <a href="#om">Om oss</a>
+          <a href="#meny">Meny</a>
+          <a href="#catering">Catering</a>
+          <a href="#kontakt">Kontakt</a>
+        </div>
+      </div>
+    </header>
+
+    <!--HERO-->
+
+    <main>
+      <div class="hero" id="hem">
+        <div class="container">
+          <img class="premium" src="img/aneto4.png" alt="logo" />
+
+          <div class="restaurant-title">
+            <h1 class="title">Italiensk Bistro</h1>
+          </div>
+        </div>
+      </div>
+
+      <!--OFFERS-->
+      <section class="offers">
+        <div class="container">
+          <h2 class="section-title">Vi erbjuder</h2>
+
+          <div class="three-columns-grid">
+            <div class="grid-item">
+              <h3 class="subtitle">
+                <strong>Alltid</strong> <span>Lokalt</span>
+              </h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                debitis cum in alias necessitatibus ut accusantium unde
+                architecto quas magnam?
+              </p>
+            </div>
+            <div class="grid-item">
+              <h3 class="subtitle">
+                <strong>Alltid</strong> <span>Ekologiskt</span>
+              </h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                debitis cum in alias necessitatibus ut accusantium unde
+                architecto quas magnam?
+              </p>
+            </div>
+            <div class="grid-item">
+              <h3 class="subtitle">
+                <strong>Alltid</strong> <span>Kvallité</span>
+              </h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                debitis cum in alias necessitatibus ut accusantium unde
+                architecto quas magnam?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--ABOUT-->
+
+      <section class="about" id="om">
+        <div class="container-fluid">
+          <div class="two-columns-grid">
+            <div class="top-description">
+              <img
+                src="img/Coffeeart.jpg"
+                alt="Om_oss"
+                class="description-img"
+              />
+            </div>
+            <div class="about-us">
+              <h2 class="section-title welcome">
+                Välkommen till <strong>Aneto</strong>
+              </h2>
+              <p class="about-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                facere obcaecati pariatur impedit dolores cupiditate veritatis
+                praesentium eligendi enim. Quas perspiciatis, inventore veniam
+                aut mollitia dolorem cum magni hic. Saepe?
+              </p>
+              <a href="#" class="btn">Läs vidare</a>
+            </div>
+          </div>
+          <div class="two-columns-grid third-grid">
+            <div class="read-more">
+              <h2 class="section-title welcome">
+                Våran <strong>Filosofi</strong>
+              </h2>
+              <p class="about-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                dolore soluta amet inventore repellat! Fugit provident quis est!
+                Odio nisi optio delectus?
+              </p>
+              <a href="#kontakt" class="btn">Kontakt</a>
+            </div>
+            <div class="top-infos">
+              <img src="img/Food9.jpg" alt="Spices" class="infos-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--MENY-->
+
+      <section class="menu" id="meny">
+        <div class="menu" id="menu">
+          <div class="menu-header"></div>
+          <div class="menu-card">
+            <div class="menu-card-header">
+              <h2 class="section-title menu-title">Menu</h2>
+              <h3 class="section-subtitle">2 till 3 rätter rekomenderas</h3>
+            </div>
+
+            <div class="two-columns-grid">
+              <div class="starters">
+                <h2>Kött</h2>
+                <div class="starter">
+                  <div class="starter-header">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <h4>139kr</h4>
+                  </div>
+                  <p class="menu-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus quas ea omnis?
+                  </p>
+                </div>
+                <div class="starter">
+                  <div class="starter-header">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <h4>99kr</h4>
+                  </div>
+                  <p class="menu-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus quas ea omnis?
+                  </p>
+                </div>
+                <div class="starter">
+                  <div class="starter-header">
+                    <h3>Lorem ipsum dolor.</h3>
+                    <h4>179kr</h4>
+                  </div>
+                  <p class="menu-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus quas ea omnis?
+                  </p>
+                </div>
+              </div>
+              <div class="mains">
+                <h2>Fisk</h2>
+                <div class="starter">
+                  <div class="starter-header">
+                    <h3>Lorem ipsum dolor.</h3>
+                    <h4>149kr</h4>
+                  </div>
+                  <p class="menu-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus quas ea omnis?
+                  </p>
+                </div>
+                <div class="starter">
+                  <div class="starter-header">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <h4>119kr</h4>
+                  </div>
+                  <p class="menu-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus quas ea omnis?
+                  </p>
+                </div>
+                <div class="starter">
+                  <div class="starter-header">
+                    <h3>Lorem ipsum dolor</h3>
+                    <h4>199kr</h4>
+                  </div>
+                  <p class="menu-paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus quas ea omnis?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CATERING-->
+
+      <section class="catering-cards" id="catering">
+        <div>
+          <img src="img/catte.jpg" alt="catering" />
+          <h3>Mums 135kr</h3>
+          <p>
+            Lorem, ipsum dolor<br />
+            Lorem, ipsum dolor.
+          </p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div>
+          <img src="img/catte2.jpg" alt="catering" />
+          <h3>Mums 119kr</h3>
+          <p>
+            Lorem, ipsum dolor<br />
+            Lorem, ipsum dolor.
+          </p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div>
+          <img src="img/catte1.jpg" alt="catering" />
+          <h3>Mums 219kr</h3>
+          <p>
+            Lorem, ipsum dolor<br />
+            Lorem, ipsum dolor.
+          </p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div>
+          <img src="img/catte9.jpg" alt="catering" />
+          <h3>Mums 168kr</h3>
+          <p>
+            Lorem, ipsum dolor<br />
+            Lorem, ipsum dolor.
+          </p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div>
+          <img src="img/catte3.jpg" alt="catering" />
+          <h3>Mums 119kr</h3>
+          <p>
+            Lorem, ipsum dolor<br />
+            Lorem, ipsum dolor.
+          </p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div>
+          <img src="img/catte4.jpg" alt="catering" />
+          <h3>Mums 109kr</h3>
+          <p>
+            Lorem, ipsum dolor<br />
+            Lorem, ipsum dolor.
+          </p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div>
+          <img src="img/catte6.jpg" alt="catering" />
+          <h3>Mums 189kr</h3>
+          <p>
+            Lorem, ipsum dolor<br />
+            Lorem, ipsum dolor.
+          </p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div>
+          <img src="img/catte7.jpg" alt="catering" />
+          <h3>Mums 209kr</h3>
+          <p>Lorem, ipsum dolor<br />Lorem, ipsum dolor.</p>
+          <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </section>
+
+      <!--KONTAKT-->
+
+      <section id="kontakt">
+        <div class="contact-title">
+          <h3>Kontakta oss</h3>
+        </div>
+
+        <div class="contact">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="input50">
+                  <input type="text" placeholder="Namn" required />
+                </div>
+                <div class="input50">
+                  <input type="text" placeholder="Efternamn" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="input50">
+                  <input type="text" placeholder="Email" required />
+                </div>
+                <div class="input50">
+                  <input type="text" placeholder="Ämne" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="input100">
+                  <textarea placeholder="Meddelande" required></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input100">
+                  <input type="submit" value="Skicka" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+      <p class="copyright">Copyright &copy; Aneto | Sweden 2022</p>
+    </footer>
+
+    <script>
+      function openSideMenu() {
+        document.getElementById("side-menu").style.width = "250px";
+      }
+      function closeSideMenu() {
+        document.getElementById("side-menu").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
