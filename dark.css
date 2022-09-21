@@ -1,0 +1,11 @@
+:root {
+    --primary-color: rgba(147, 150, 110, 0.9);
+    --dark: rgb(255, 255, 255);
+    --light: rgb(199, 199, 199);
+    --footer: rgba(161, 166, 119, 0.449);
+    --header: rgb(0, 0, 0);
+    --background: rgb(0, 0, 0);
+    --linear: linear-gradient(-40deg, #000000, rgba(185, 176, 176, 0.244), rgba(153, 154, 150, 0.244), #000000);
+    --default-color: #000;
+    --second-primary-color: rgba(147, 150, 110, 0.934);
+}

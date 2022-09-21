@@ -12,11 +12,11 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link id="theme-style" rel="stylesheet" type="text/css" href="#" />
     <title>Aneto | Italia</title>
   </head>
   <body>
     <!--HEADER/NAVBAR-->
-
     <header class="header">
       <div class="container-fluid">
         <div class="nav-span">
@@ -45,14 +45,21 @@
             <li><a href="#kontakt">Kontakt</a></li>
           </ul>
         </nav>
-        <div id="side-menu" class="side-nav">
-          <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
-          <a href="#hem">Hem</a>
-          <a href="#om">Om oss</a>
-          <a href="#meny">Meny</a>
-          <a href="#catering">Catering</a>
-          <a href="#kontakt">Kontakt</a>
+
+        <!--Ändra Tema-->
+
+        <div id="theme-option-wrapper">
+          <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
+          <div data-mode="light" id="light-mode" class="theme-dot"></div>
         </div>
+      </div>
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+        <a href="#hem">Hem</a>
+        <a href="#om">Om oss</a>
+        <a href="#meny">Meny</a>
+        <a href="#catering">Catering</a>
+        <a href="#kontakt">Kontakt</a>
       </div>
     </header>
 
@@ -61,7 +68,7 @@
     <main>
       <div class="hero" id="hem">
         <div class="container">
-          <img class="premium" src="img/aneto4.png" alt="logo" />
+          <img class="hero-logo" src="img/aneto4.png" alt="logo" />
 
           <div class="restaurant-title">
             <h1 class="title">Italiensk Bistro</h1>
@@ -97,7 +104,7 @@
             </div>
             <div class="grid-item">
               <h3 class="subtitle">
-                <strong>Alltid</strong> <span>Kvallité</span>
+                <strong>Alltid</strong> <span>Kvalité</span>
               </h3>
               <p class="paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
@@ -140,9 +147,13 @@
                 Våran <strong>Filosofi</strong>
               </h2>
               <p class="about-paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                dolore soluta amet inventore repellat! Fugit provident quis est!
-                Odio nisi optio delectus?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquid, adipisci sequi possimus amet, consectetur, aperiam nemo
+                vel iusto autem obcaecati delectus veritatis dolor! Deleniti
+                rerum ad quaerat corrupti cupiditate dolorem blanditiis
+                voluptate explicabo libero quam. Praesentium neque numquam,
+                nemo, beatae dolorum ipsa ad velit provident repellendus aliquid
+                odio architecto et........
               </p>
               <a href="#kontakt" class="btn">Kontakt</a>
             </div>
@@ -240,7 +251,7 @@
 
       <section class="catering-cards" id="catering">
         <div>
-          <img src="img/catte.jpg" alt="catering" />
+          <img src="img/newfood9.jpg" alt="catering" />
           <h3>Mums 135kr</h3>
           <p>
             Lorem, ipsum dolor<br />
@@ -249,7 +260,7 @@
           <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
         </div>
         <div>
-          <img src="img/catte2.jpg" alt="catering" />
+          <img src="img/newfood1.jpg" alt="catering" />
           <h3>Mums 119kr</h3>
           <p>
             Lorem, ipsum dolor<br />
@@ -258,7 +269,7 @@
           <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
         </div>
         <div>
-          <img src="img/catte1.jpg" alt="catering" />
+          <img src="img/newfood2.jpg" alt="catering" />
           <h3>Mums 219kr</h3>
           <p>
             Lorem, ipsum dolor<br />
@@ -267,7 +278,7 @@
           <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
         </div>
         <div>
-          <img src="img/catte9.jpg" alt="catering" />
+          <img src="img/newfood3.jpg" alt="catering" />
           <h3>Mums 168kr</h3>
           <p>
             Lorem, ipsum dolor<br />
@@ -277,7 +288,7 @@
         </div>
 
         <div>
-          <img src="img/catte3.jpg" alt="catering" />
+          <img src="img/newfood4.jpg" alt="catering" />
           <h3>Mums 119kr</h3>
           <p>
             Lorem, ipsum dolor<br />
@@ -286,7 +297,7 @@
           <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
         </div>
         <div>
-          <img src="img/catte4.jpg" alt="catering" />
+          <img src="img/newfood5.jpg" alt="catering" />
           <h3>Mums 109kr</h3>
           <p>
             Lorem, ipsum dolor<br />
@@ -296,7 +307,7 @@
         </div>
 
         <div>
-          <img src="img/catte6.jpg" alt="catering" />
+          <img src="img/newfood6.jpg" alt="catering" />
           <h3>Mums 189kr</h3>
           <p>
             Lorem, ipsum dolor<br />
@@ -305,7 +316,7 @@
           <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
         </div>
         <div>
-          <img src="img/catte7.jpg" alt="catering" />
+          <img src="img/newfood7.jpg" alt="catering" />
           <h3>Mums 209kr</h3>
           <p>Lorem, ipsum dolor<br />Lorem, ipsum dolor.</p>
           <a href="#">Beställ <i class="fa-solid fa-cart-shopping"></i></a>
@@ -323,28 +334,28 @@
           <div class="contact-form">
             <form>
               <div class="row">
-                <div class="input50">
+                <div class="input-small">
                   <input type="text" placeholder="Namn" required />
                 </div>
-                <div class="input50">
+                <div class="input-small">
                   <input type="text" placeholder="Efternamn" required />
                 </div>
               </div>
               <div class="row">
-                <div class="input50">
+                <div class="input-small">
                   <input type="text" placeholder="Email" required />
                 </div>
-                <div class="input50">
+                <div class="input-small">
                   <input type="text" placeholder="Ämne" required />
                 </div>
               </div>
               <div class="row">
-                <div class="input100">
+                <div class="input-large">
                   <textarea placeholder="Meddelande" required></textarea>
                 </div>
               </div>
               <div class="row">
-                <div class="input100">
+                <div class="input-large">
                   <input type="submit" value="Skicka" />
                 </div>
               </div>
@@ -368,5 +379,6 @@
         document.getElementById("side-menu").style.width = "0";
       }
     </script>
+    <script src="app.js"></script>
   </body>
 </html>
