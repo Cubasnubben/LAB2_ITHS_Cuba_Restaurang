@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
 
 *,
 *:before,
@@ -31,7 +33,9 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    font-display: optional
 }
+
 
 
 body {
@@ -292,8 +296,11 @@ span {
 }
 
 .paragraph {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--dark);
+    font-weight: 700;
+    font-family: 'Amatic SC', cursive;
+
 }
 
 /*aboutpage*/
@@ -422,8 +429,8 @@ span {
 }
 
 .starter-header h3 {
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 2.7rem;
+    font-weight: 700;
     margin-right: 2rem;
     color: var(--dark);
     font-family: 'Poiret One', cursive;
@@ -432,7 +439,7 @@ span {
 
 .starter-header h4 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--dark);
     font-family: 'Poiret One', cursive;
 
@@ -440,10 +447,11 @@ span {
 
 .menu-paragraph {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     color: var(--dark);
+    font-weight: 600;
     margin-bottom: 1rem;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Amatic SC', cursive;
 }
 
 .menu-card-header h3 {
@@ -497,7 +505,8 @@ span {
 
 .contact-title h3 {
     text-align: center;
-    font-family: 'Unica One', cursive;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
     padding: 20px;
     margin-top: 80px;
     font-size: 6rem;
@@ -714,6 +723,7 @@ span {
 
     .hero {
         height: 70vh;
+        background: url(img/small-device-img.jpg);
     }
 
 
@@ -749,12 +759,11 @@ span {
 
     .catering-cards {
         grid-template-columns: 1fr;
-        margin-top: 500px;
+        margin-top: 530px;
     }
 
     .menu-card {
         width: 80%;
-
     }
 
     .starter-header h3 {
